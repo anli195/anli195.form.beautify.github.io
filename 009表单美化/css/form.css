@@ -1,0 +1,72 @@
+.hidden {
+	display: none;
+}
+.radio_off {
+	float: left;
+	width: 90px;
+	height: 33px;
+	background: url(../img/icon_radio.png) no-repeat left bottom;
+}
+.radio_on{
+	background-position: left top;
+}
+
+.formRadio {
+	float: left;
+	width: 15px;
+	height: 15px;
+	background: url(../img/icon_radio1.png) no-repeat left top;
+}
+
+.formRadio_curr {
+	background-position: right top;
+}
+
+
+body {
+	background: #ccc;
+}
+.divSelect {
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+.divSelect span {
+	display: block;
+	height: 31px;
+	line-height: 31px;
+	padding:0 10px;
+	background: url(../img/select_left.gif) no-repeat;
+}
+.divSelect i {
+	display: block;
+	width: 31px;
+	height: 31px;
+	background: url(../img/select_right.gif) no-repeat;
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 1;
+}
+.divSelect ul {
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	position: absolute;
+	top:31px;
+	left:0;
+	z-index: 9999;
+	display: none;
+}
+.divSelect ul li {
+	height: 30px;
+	line-height: 30px;
+	padding-left:10px;
+}
+.divSelect ul li:hover {
+	background: #e2e2e2;
+}
+.divSelect ul li.curr {
+	color: #fff;
+	background: #0c20e4;
+}
